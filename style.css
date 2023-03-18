@@ -228,3 +228,92 @@ footer{
 .footer-text{
   color: #fff;
 }
+
+
+@media screen and (max-width: 425px){
+  
+  heder{
+    width: 100%;
+  }
+  
+  .nav-list-item{
+    display: block;
+    /*答え見た*/
+    width: 100%;
+    margin: 0 0 10px 0;
+  }
+  
+ /*答え見たやつ*/
+  .nav-list{
+    width: 100%;
+  }
+  
+  i.fab{
+    display: none;
+  }
+  
+  main{
+    width: 100%;
+    display:  block;
+  }
+  
+  .main-visual-content{
+    width: 100%;
+  }
+  
+  .blog{
+    width: 100%;
+    /*答え見た*/
+    margin: 0;
+  }
+  
+  /*答え見た*/
+  .blog-box{
+    padding-left: 2%;
+    padding-right: 2%;
+  }
+  
+  .blog-image{
+    width: 49%;
+  }
+  
+  .blog-text{
+    /*答え見た*/
+    width: 49%;
+    padding-top: 5px;
+  }
+  
+  .blog-date{
+    font-size: 15px;
+  }
+  
+  .category{
+    display: none;
+  }
+  
+  .sidebar{
+    width: 100%;
+    padding-top: 50px;
+  }
+  
+  /*下記全部答え見た*/
+  
+  .sidebar-contents{
+    padding-left: 3%;
+    padding-right: 3%;
+  }
+  
+  .instagram-box{
+    width: 48%;
+    padding-top: 48%;
+  }
+
+  .instagram-box:nth-child(odd){
+    margin-right: 4%;
+  }
+  
+  .pagination{
+  margin-bottom: 50px;  
+  }
+  
+}
